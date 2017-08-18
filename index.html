@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="utf-8" />
+      <title>test</title>
+</head>
+
+<body>
+      <canvas id="myCanvas" width="300" height="100" style="border:1px solid #d3d3d3;">
+            您的浏览器不支持 HTML5 canvas 标签。</canvas>
+
+      <script>
+            var canvas = document.getElementById('myCanvas'),
+                  ctx = canvas.getContext('2d'),
+                  gradient = ctx.createLinearGradient(0, 0, 200, 0);
+            gradient.addColorStop('0', 'black');
+            gradient.addColorStop('0.5', 'yellow');
+            gradient.addColorStop('1', 'red');
+
+            ctx.font = '40px yahei';
+            ctx.fillStyle = gradient
+
+            ctx.fillText('hello world', 10, 50);
+      </script>
+
+</body>
+
+</html>

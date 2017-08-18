@@ -1,0 +1,36 @@
+{
+  "name": "istudy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "dev": "node build/dev-server.js",
+    "start": "node build/dev-server.js",
+    "build": "node build/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jesse-He/jesse.git"
+  },
+  "keywords": ["html", "js", "javascript", "css"],
+  "author": "jesse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jesse-He/jesse/issues"
+  },
+  "homepage": "https://github.com/Jesse-He/jesse#readme",
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
